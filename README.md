@@ -135,3 +135,24 @@ But it is important to use it responsibly and ethically. Here are some guideline
 9. Document your scraping process thoroughly for replicability, transparency and accountability.
 
 10. Continuously re-evaluate your scraping program against applicable laws and ethical principles.
+
+# Robots Analysis for the Daily Pennsylvanian
+
+The Daily Pennsylvanian's `robots.txt` file is available at
+[https://www.thedp.com/robots.txt](https://www.thedp.com/robots.txt).
+
+## Contents of the `robots.txt` file on [ ... date you accessed the file ... ]
+
+```
+User-agent: *
+Crawl-delay: 10
+Allow: /
+
+User-agent: SemrushBot
+Disallow: /
+```
+
+## Explanation
+
+All crawlers except SemrushBot are allowed to access the site, but they must wait 10 seconds between requests.
+SemrushBot is completely blocked from crawling any part of the website.
