@@ -161,3 +161,6 @@ SemrushBot is completely blocked from crawling any part of the website.
 1. I scraped the "Sports" section and the modifications made were
 - Modified the search to the h3 HTML element with a classname of "standard-link" as I noted in the DOM structure of the daily pennsylvanian website.
 - Modified the target url search to "https://dp.com/section/sports" to ensure the crawler worked on scraping the right page.
+2. scraped the "Pr Blog" section and the modifications made were
+- Modified the search to the h3 HTML element with a classname of "standard-link" as I noted in the DOM structure of the daily pennsylvanian website.
+- Modified the target url search to "https://dp.com/section/pr-blog" to ensure the crawler worked on scraping the right page.
