@@ -156,3 +156,8 @@ Disallow: /
 
 All crawlers except SemrushBot are allowed to access the site, but they must wait 10 seconds between requests.
 SemrushBot is completely blocked from crawling any part of the website.
+
+## Scraper Modifications
+1. I scraped the "Sports" section and the modifications made were
+   a. Modified the search to the h3 HTML element with a classname of "standard-link" as I noted in the DOM structure of the daily pennsylvanian website.
+   b. Modified the target url search to "https://dp.com/section/sports" to ensure the crawler worked on scraping the right page.
